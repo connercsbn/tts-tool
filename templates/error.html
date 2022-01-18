@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Error {{ e }}</title>
+
+<form action='/' method="post" enctype=multipart/form-data>
+    <div>
+        <img class="center-hor center-vert" src="{{link}}">
+    </div>
+</form>
+
+
+<style>
+.center-hor {
+  text-align: center;
+} /*horizontal center */
+.center-vert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} /*vertical center*/
+</style>
